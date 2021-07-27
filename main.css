@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Arial", sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero {
+
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-image: url(./images/watches.jpg);
+    background-position: right -180px bottom -50px;
+    background-size: 550px auto;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    margin-bottom: 100px;
+}
+
+.menu {
+    display: flex;
+}
+.menu-list {
+    margin-right: 20px;
+}
+.hero-title h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.hero-text {
+    width: 390px;
+    border-left: 2px solid #000;
+    padding-left: 20px;
+    margin-bottom: 33px;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.hero-button {
+    display: inline-block;
+    padding: 10px 19px;
+    background-color: #EA625C;
+    text-align: center;
+    color:#fff;    
+}
+.sport {
+    padding-top: 80px;
+  
+}
+
+.sport-group {
+    display: flex;
+    align-items: flex-start;
+    
+}
+.sport-item {
+    width: 300px;
+    margin-right: 50px;
+}
+.sport-group h3 {
+    margin-bottom: 25px;
+}
+.sport-item p {
+    line-height: 1.4;
+    font-size: 13px;
+}
+.dots {
+    background-color: dimgrey;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.link {
+    margin-top: 15px;
+   display: inline-block;
+    color: rgb(194, 73, 73);
+    font-style: 14px;
+    font-weight: 700;
+}
+.btn-lines {
+    background-color: rgb(194, 73, 73);
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 3px;
+    margin-right: 6px;
+}
+.link:hover .btn-lines {
+    width: 33px;
+    transition: 0.3s ease;
+}
+.sport-bottom h2 {
+    width: 300px;
+    font-size: 28px;
+   margin-bottom: 25px;
+}
+.sport-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(./images/preview.jpg);
+    background-position: bottom 0px right 0px;
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+.running {
+    background-image: url(./images/runners.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.run {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    justify-content: center;
+    text-align: left;
+    height: 400px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.run p {
+    margin: 20px 0px;
+}
